@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#menu-sup {
+    background-image: url(imagens/fundo-menusup.svg);
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+
+#menu-informacional {
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 60px;
+}
+
+#titulo-cards {
+    color: #EAECE5;
+    font-size: 28px;
+    text-align: center;
+}
+
+#div-cards {
+    margin-top: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 90px;
+}
+
+.cards {
+    margin-left: 80px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#titulo-form {
+    text-align: center;
+    color: #383838;
+    margin-top: 50px;
+    size: 25px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#formulario input {
+    background-color: #EAECE5;
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 8px;
+    border-style: none;
+    width: 500px;
+    height: 55px;
+}
+
+#formulario button {
+    background-color: #247BA0;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 8px;
+    border-style: none;
+    width: 400px;
+    height: 55px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #247BA0;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103094;
+}
